@@ -53,17 +53,22 @@ ScriptedImporter:
   optimizeGameObjects: 0
   materials:
   - {fileID: -6625080846030360016, guid: d7989d60205696849837ca2f349e6870, type: 3}
-  textures: []
+  textures:
+  - {fileID: 6937653842356316880, guid: d7989d60205696849837ca2f349e6870, type: 3}
   hasSceneData: 1
   hasAnimationData: 0
   hasMaterialData: 1
-  hasTextureData: 0
+  hasTextureData: 1
   animations: []
   _extensions:
   - name: KHR_materials_specular
     supported: 1
     used: 1
     required: 0
-  _textures: []
+  _textures:
+  - texture: {fileID: 6937653842356316880, guid: d7989d60205696849837ca2f349e6870,
+      type: 3}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
   _mainAssetIdentifier: scenes/Scene
   _importPlugins: []

@@ -2087,6 +2087,18 @@ MonoBehaviour:
     m_Key: ENVIRONMENT_DRESSFORM
     m_Metadata:
       m_Items: []
+  - m_Id: 1479836493916764474
+    m_Key: ENVIRONMENT_HUMANBODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4479912187974679211
+    m_Key: ENVIRONMENT_HUMANBODY_MALE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4024371590685647110
+    m_Key: ENVIRONMENT_HUMANBODY_FEMALE
+    m_Metadata:
+      m_Items: []
   - m_Id: 81212845635198976
     m_Key: ENVIRONMENT_EXAMPLE
     m_Metadata:

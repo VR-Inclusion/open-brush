@@ -18,6 +18,12 @@ namespace TiltBrush
     public class LightingButton : BaseButton
     {
         private TiltBrush.Environment m_Preset;
+        private LightingPopUpWindow m_Owner;
+
+        public void SetOwner(LightingPopUpWindow owner)
+        {
+            m_Owner = owner;
+        }
 
         override protected void ConfigureTextureAtlas()
         {
@@ -43,6 +49,14 @@ namespace TiltBrush
 
         override protected void OnButtonPressed()
         {
+            if (m_Preset.m_IsCategory)
+            {
+                if (m_Owner != null)
+                {
+                    m_Owner.OpenCategoryPopup(m_Preset);
+                }
+                return;
+            }
             if (SceneSettings.m_Instance.IsTransitioning &&
                 SceneSettings.m_Instance.GetDesiredPreset() == m_Preset)
             {

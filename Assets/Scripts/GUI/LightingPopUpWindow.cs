@@ -36,6 +36,7 @@ namespace TiltBrush
         [SerializeField] private ToggleButton m_WorldLockToggle;
 
         private List<TiltBrush.Environment> m_Environments;
+        private List<TiltBrush.Environment> m_ExplicitEnvironments;
 
         protected override int m_DataCount
         {
@@ -51,7 +52,33 @@ namespace TiltBrush
         {
             LightingButton iconButton = icon.m_IconScript as LightingButton;
             iconButton.SetPreset(m_Environments[iCatalog]);
+            iconButton.SetOwner(this);
             iconButton.SetButtonSelected(m_CurrentPresetGuid == m_Environments[iCatalog].m_Guid.ToString());
+        }
+
+        /// Seeds this popup with an explicit list of environments (e.g. the children of a
+        /// category button like "Human Body") instead of the full catalog. Call RefreshPage()
+        /// afterwards to rebuild the icon grid.
+        public void SetExplicitEnvironments(List<TiltBrush.Environment> envs)
+        {
+            m_ExplicitEnvironments = envs;
+            m_Environments = envs;
+        }
+
+        /// Drills down into a category (e.g. "Human Body"): swaps this same popup's icon grid
+        /// over to the category's child environments (Male/Female), in place. We deliberately
+        /// don't close this popup and instantiate a fresh copy of the prefab for the sub-list -
+        /// doing that hit a pre-existing null-reference in the toggle/atlas setup that only
+        /// manifests on a second Init() of this popup type in the same session, which froze the
+        /// whole panel. Reusing the already-fully-initialized instance sidesteps that entirely.
+        public void OpenCategoryPopup(TiltBrush.Environment category)
+        {
+            if (category == null || category.m_ChildEnvironments == null)
+            {
+                return;
+            }
+            SetExplicitEnvironments(category.m_ChildEnvironments.ToList());
+            RefreshPage();
         }
 
         override public void Init(GameObject rParent, string sText)
@@ -60,7 +87,8 @@ namespace TiltBrush
             m_WorldLockToggle.IsToggledOn = SketchControlsScript.m_Instance.m_DisableWorldGrabbing;
 
             //build list of lighting presets we're going to show
-            m_Environments = EnvironmentCatalog.m_Instance.AllEnvironments.ToList();
+            m_Environments = m_ExplicitEnvironments ??
+                EnvironmentCatalog.m_Instance.AllEnvironments.Where(e => !e.m_HiddenFromMainMenu).ToList();
 
             // Remove passthrough scene for devices that don't support it
 #if !PASSTHROUGH_SUPPORTED

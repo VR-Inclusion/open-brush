@@ -176,6 +176,22 @@ namespace TiltBrush
         public Color m_SkyboxColorA;
         public Color m_SkyboxColorB;
         public bool isPassthrough;
+
+        [Tooltip("If true, this Environment is a category link shown in the main Environment " +
+            "popup that, instead of switching to it directly, opens a second popup listing " +
+            "m_ChildEnvironments.")]
+        public bool m_IsCategory = false;
+
+        [Tooltip("Only used when m_IsCategory is true. The environments shown in the sub-popup " +
+            "opened by this category button.")]
+        public Environment[] m_ChildEnvironments;
+
+        [Tooltip("If true, this Environment is not listed directly in the main Environment " +
+            "popup grid (e.g. because it's only reachable via a category button), but it is " +
+            "still registered in the manifest so it can be looked up by GUID (undo/redo, " +
+            "loading a saved sketch, etc).")]
+        public bool m_HiddenFromMainMenu = false;
+
     }
 
 } // namespace TiltBrush

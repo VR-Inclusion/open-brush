@@ -3811,6 +3811,194 @@ MonoBehaviour:
       Worlds.'
     m_Metadata:
       m_Items: []
+  - m_Id: 565385129321029632
+    m_Localized: Get Started
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778368
+    m_Localized: 'Viverse has just opened a competition for Open Brush users with
+      prizes of up to $2,500. Create your artwork in Open Brush, publish it to Viverse
+      as an interactive experience, and show your creativity to the world!
+
+      To
+      get started, visit https://link.viverse.com/openbrush or click below:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778369
+    m_Localized: Publish Your Art to Viverse and Win Prizes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778370
+    m_Localized: Sample text 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778371
+    m_Localized: "Not enough people realise that Open Brush runs as sketch viewer
+      on all Mac, PC, Android devices even when those devices have no VR support.
+      This release has improved the navigation controls. Touch support on phones
+      is more intuitive and standard gamepads should work as expected. \n\nFurthermore
+      you can now browse more sample sketches which are loaded directly from the
+      Icosa Gallery. Non-VR devices also support interacting with Open Brush via
+      the Web API or monoscopic mode."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778372
+    m_Localized: View-only Mode Improvements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778373
+    m_Localized: 'Previously mobile VR devices such as the Quest had less selection
+      tools available than PC VR devices. This was due to performance issues when
+      we first launched for the Quest 1.
+
+      Newer devices are more powerful so
+      we''ve made the full range of tools available on all devices giving you access
+      to "Select All" and "Invert Selection". Complex scenes might stutter when using
+      these but we wanted to give you the choice.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778374
+    m_Localized: More Selection Tools for standalone VR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778375
+    m_Localized: 'Camera paths are a powerful way to render a standard or 360 video
+      fly-through of your creations. However we only support rendering video directly
+      on desktop
+
+      You can now render the video frames directly on devices that
+      don''t support generating video files directly. These frames can be converted
+      into a regular video in multiple ways - uploading to a web service, importing
+      into a video editing app etc.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778376
+    m_Localized: Camera Path Rendering on All Devices
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778377
+    m_Localized: 'The Magicavoxel .vox format is the standard file format for models
+      created in a wide range of voxel editing apps. You can now import them like
+      you can other 3d model formats and construct entire scenes from them.
+
+      if
+      you want them to remain aligned to their original grid then set grid snap to
+      0.1 and angle snap to 90 before importing.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778378
+    m_Localized: VOX File Import
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778379
+    m_Localized: 'Using imported 3D models to construct or enhance your sketches
+      is incredibly useful but often 3D models contain multiple elements and those
+      elements are not easily separated.
+
+      We''ve added the ability to break
+      apart imported models - even if the model was built as a single mesh. We check
+      for connected parts and allow you to break apart any elements that are visually
+      separate.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972672
+    m_Localized: Splitting 3D Models
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972673
+    m_Localized: Sample text 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972674
+    m_Localized: Icosa Gallery on the web
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972675
+    m_Localized: 'The Icosa Gallery is our own  website for sharing your artwork
+      and 3d models and discovering and remixing work by other people.
+
+      It
+      has all the amazing work that was once published on Google Poly as well new
+      artwork and 3d content created with Open Brush, Blender and other 3d apps. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972676
+    m_Localized: Icosa Gallery Integration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972677
+    m_Localized: "You can now publish Open Brush sketches directly to Viverse with
+      a couple of clicks.\n\nViverse allows you to build and share 3D worlds in a
+      web browser so people can visit from nearly any device: phone, tablets, PC,
+      Mac and of course VR headsets. \n\nWorlds are social and multiplayer and can
+      optionally be monetized to help support artists (that's you...)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972678
+    m_Localized: Publish Worlds to Viverse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972679
+    m_Localized: 'Our sibling application Open Blocks is an incredibly intuitive
+      low-poly 3d modelling app for PC and standalone VR devices.
+
+      Once you''ve
+      installed Open Blocks then any models you save locally can easily be imported
+      via the standard 3D model library browser.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972680
+    m_Localized: Import Open Blocks Models
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972681
+    m_Localized: 'Possibly our most powerful new feature ever and several years in
+      the making. Plugins are small lua scripts that can hook into Open Brush to
+      modify how existing painting tools work or create entirely new tools.
+
+      We''ve
+      shipped an extensive range of examples that expand the creative palette you
+      have available and serve as jumping off points for those of you that would
+      like to create your own plugins and share them with the community'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972682
+    m_Localized: Plugins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972683
+    m_Localized: Sample text 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972684
+    m_Localized: 'Viverse recently announced that they are extending the VIVERSE
+      Open Brush Art Jam submission deadline to April 17th, 11:59pm Pacific Time
+
+      To
+      get started, visit https://link.viverse.com/openbrush or click below:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972685
+    m_Localized: Viverse Competition Deadline Extended!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972686
+    m_Localized: 'We previously had a feature that allowed you to export selected
+      parts of your sketch as 3d models. This had several drawbacks: it was PC-only,
+      brush strokes ceased to be editable or selectable and their appearance often
+      changed due to the conversion process.
+
+      We''ve now implemented the ability
+      to save any selected brush strokes without converting them into a 3d mesh.
+      Now when they are added back to your scene they are grouped strokes and can
+      be ungrouped, re-colored, re-brushed and anything else you can do with regular
+      brush strokes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972687
+    m_Localized: Saved Stroke Gallery
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

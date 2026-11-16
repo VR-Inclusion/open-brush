@@ -3643,6 +3643,130 @@ MonoBehaviour:
     m_Key: SNAP_SETTINGS_PANEL_TOGGLE_Z_ROTATION_SNAP
     m_Metadata:
       m_Items: []
+  - m_Id: 423748078849216512
+    m_Key: POPUP_ACCOUNTS_VIVERSEINFO_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423748375394897920
+    m_Key: POPUP_ACCOUNTS_VIVERSEINFO_DESCRIPTION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129321029632
+    m_Key: WHATSNEW_GET_STARTED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778368
+    m_Key: WHATSNEW_VIVERSE_COMPETITION_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778369
+    m_Key: WHATSNEW_VIVERSE_COMPETITION_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778370
+    m_Key: WHATSNEW_SAMPLE_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778371
+    m_Key: WHATSNEW_VIEW_MODE_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778372
+    m_Key: WHATSNEW_VIEW_MODE_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778373
+    m_Key: WHATSNEW_QUEST_SELECTION_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778374
+    m_Key: WHATSNEW_QUEST_SELECTION_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778375
+    m_Key: WHATSNEW_CAMERA_PATH_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778376
+    m_Key: WHATSNEW_CAMERA_PATH_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778377
+    m_Key: WHATSNEW_VOX_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778378
+    m_Key: WHATSNEW_VOX_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129358778379
+    m_Key: WHATSNEW_SPLIT_MODELS_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972672
+    m_Key: WHATSNEW_SPLIT_MODELS_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972673
+    m_Key: WHATSNEW_SAMPLE_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972674
+    m_Key: WHATSNEW_ICOSA_LINK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972675
+    m_Key: WHATSNEW_ICOSA_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972676
+    m_Key: WHATSNEW_ICOSA_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972677
+    m_Key: WHATSNEW_VIVERSE_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972678
+    m_Key: WHATSNEW_VIVERSE_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972679
+    m_Key: WHATSNEW_BLOCKS_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972680
+    m_Key: WHATSNEW_BLOCKS_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972681
+    m_Key: WHATSNEW_PLUGINS_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972682
+    m_Key: WHATSNEW_PLUGINS_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972683
+    m_Key: WHATSNEW_SAMPLE_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972684
+    m_Key: WHATSNEW_VIVERSE_DEADLINE_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972685
+    m_Key: WHATSNEW_VIVERSE_DEADLINE_TITLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972686
+    m_Key: WHATSNEW_SAVED_STROKES_BODY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 565385129362972687
+    m_Key: WHATSNEW_SAVED_STROKES_TITLE
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

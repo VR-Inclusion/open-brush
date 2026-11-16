@@ -35,6 +35,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 752fccd395c359d43ad7ef9cf256b343
+    m_Address: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 887d91eb154761a4cb852d5288e9a633
     m_Address: Japanese
     m_ReadOnly: 1
